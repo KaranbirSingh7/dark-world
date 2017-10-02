@@ -1,0 +1,38 @@
+#scene2
+{
+    -fx-background-image: url("images/background.gif");
+}
+.button
+{
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+}
+.label
+{
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-padding: 4px;
+}
+#labelGameOver
+{
+    -fx-text-fill: red;
+    -fx-font-size: 50px;
+}
+#labelInstructions
+{
+    -fx-text-fill: black;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-padding: 4px;
+    -fx-font-family: "Arial";
+}
+#labelName
+{
+    -fx-text-fill: cyan;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
